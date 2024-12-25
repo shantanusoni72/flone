@@ -1,0 +1,192 @@
+[
+    {
+        "image": "assets/fashion-home-1.png",
+        "text": "Fashion Home One",
+        "link": "#"
+    },
+    {
+        "image": "assets/fashion-home-2.png",
+        "text": "Fashion Home Two",
+        "link": "#"
+    },
+    {
+        "image": "assets/fashion-home-3.png",
+        "text": "Fashion Home Three",
+        "link": "#"
+    },
+    {
+        "image": "assets/fashion-home-4.png",
+        "text": "Fashion Home Four",
+        "link": "#"
+    },
+    {
+        "image": "assets/fashion-home-5.png",
+        "text": "Fashion Home Five",
+        "link": "#"
+    },
+    {
+        "image": "assets/fashion-home-6.png",
+        "text": "Fashion Home Six",
+        "link": "#"
+    },
+    {
+        "image": "assets/fashion-home-7.png",
+        "text": "Fashion Home Seven",
+        "link": "#"
+    },
+    {
+        "image": "assets/fashion-home-eight.jpg",
+        "text": "Fashion Home Eight",
+        "link": "#"
+    },
+    {
+        "image": "assets/fashion-home-kids.png",
+        "text": "Fashion Home Kid",
+        "link": "#"
+    },
+    {
+        "image": "assets/cosmetics-home.png",
+        "text": "Cosmetics Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/furniture-home-1.png",
+        "text": "Furniture Home One",
+        "link": "#"
+    },
+    {
+        "image": "assets/furniture-home-2.png",
+        "text": "Furniture Home Two",
+        "link": "#"
+    },
+    {
+        "image": "assets/furniture-home-3.png",
+        "text": "Furniture Home Three",
+        "link": "#"
+    },
+    {
+        "image": "assets/furniture-home-four.jpg",
+        "text": "Furniture Home Four",
+        "link": "#"
+    },
+    {
+        "image": "assets/furniture-home-five.jpg",
+        "text": "Furniture Home Five",
+        "link": "#"
+    },
+    {
+        "image": "assets/furniture-home-six.jpg",
+        "text": "Furniture Home Six",
+        "link": "#"
+    },
+    {
+        "image": "assets/furniture-home-seven.jpg",
+        "text": "Furniture Home Seven",
+        "link": "#"
+    },
+    {
+        "image": "assets/electronics-home-1.png",
+        "text": "Electronic Home One",
+        "link": "#"
+    },
+    {
+        "image": "assets/electronics-home-2.png",
+        "text": "Electronic Home Two",
+        "link": "#"
+    },
+    {
+        "image": "assets/electronics-home-three.jpg",
+        "text": "Electronic Home Three",
+        "link": "#"
+    },
+    {
+        "image": "assets/books-store-home.png",
+        "text": "Book Store Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/book-store-home-two.jpg",
+        "text": "Book Store Home Two",
+        "link": "#"
+    },
+    {
+        "image": "assets/plants-home.png",
+        "text": "Plants Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/flower-shop-home.png",
+        "text": "Flower Shop Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/flower-home-two.jpg",
+        "text": "Flower Shop Home Two",
+        "link": "#"
+    },
+    {
+        "image": "assets/organic-food-home-2.png",
+        "text": "Organic Food Home Two",
+        "link": "#"
+    },
+    {
+        "image": "assets/organic-food-home-1.png",
+        "text": "Organic Food Home One",
+        "link": "#"
+    },
+    {
+        "image": "assets/onepage-home.png",
+        "text": "Onepage Scroll Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/grid-banner-home.png",
+        "text": "Grid Banner Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/auto-parts-home.png",
+        "text": "Auto Parts Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/cake-shop-home.png",
+        "text": "Cake Shop Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/handmade-home.png",
+        "text": "Handmade Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/pet-food-home.png",
+        "text": "Pet Food Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/medical-home-one.jpg",
+        "text": "Medical Equipment Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/black-friday-home-one.jpg",
+        "text": "Black Friday Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/christmas-home-one.jpg",
+        "text": "Christmas Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/valentines-day-home-one.jpg",
+        "text": "Valentines Day Home",
+        "link": "#"
+    },
+    {
+        "image": "assets/black-friday-home-two.jpg",
+        "text": "Black Friday Home Two",
+        "link": "#"
+    }
+]

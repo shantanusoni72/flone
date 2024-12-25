@@ -1,0 +1,117 @@
+@keyframes movingStore {
+    from {
+        background-position-x: 0px;
+    }
+    to {
+        background-position-x: -2000px;
+    }
+}
+
+.store-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-image: url('../../../public/assets/store-bg.jpg');
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: auto;
+    animation: movingStore infinite 18s linear;
+}
+
+.store-container h1, .store-container h1 sup {
+    font-size: 150px;
+    font-weight: 700;
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(-90deg, #ffb87d 5%, #ff3d99 95%);
+    background-clip: text;
+}
+
+.store-container h2 {
+    font-size: var(--h2);
+}
+
+.store-container p {
+    width: 50%;
+    font-size: var(--h5);
+    color: var(--grey);
+    text-align: center;
+}
+
+.store {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.store-card {
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.store-card .store-card-image img {
+    position: relative;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
+    transform: translateY(0px);
+    transition: 0.4s;
+}
+
+.store-card:hover .store-card-image img {
+    transform: translateY(-10px);
+}
+
+.store-card p {
+    width: 100%;
+    color: var(--black);
+    font-size: var(--h4);
+    font-weight: var(--fw);
+}
+
+@media screen and (max-width: 1024px) {
+    .store-container p {
+        width: 70%;
+    }
+
+    .store {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .store-container p {
+        width: 85%;
+    }
+
+    .store-card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .store-container h1, .store-container h1 sup {
+        font-size: 90px;
+    }
+
+    .store-container h2 {
+        font-size: calc(var(--h2) - 15px);
+        text-align: center;
+    }
+    
+    .store-container p {
+        width: 90%;
+    }
+    
+    .store-card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+.hero-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: start;
+    background-color: var(--silver);
+    height: 150vh;
+    overflow: hidden;
+}
+
+.hero {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero h1 {
+    font-size: var(--h2);
+}
+
+.hero p {
+    font-size: var(--h3);
+}
+
+.hero-image-slider-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-image-slider-row li {
+    margin: -100px;
+    border: 1px solid red;
+}
