@@ -26,3 +26,7 @@
     font-family: var(--ff-primary);
     color: var(--black);
 }
+
+html, body {
+    background-color: var(--silver);
+}

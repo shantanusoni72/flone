@@ -1,0 +1,23 @@
+.section-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 10%;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cards a {
+    width: 20%;
+}
+
+.cards a img {
+    width: 100%;
+}
