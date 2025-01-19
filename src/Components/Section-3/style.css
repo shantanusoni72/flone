@@ -7,6 +7,15 @@
     gap: 10px;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    width: 100%;
+}
+
 .cards {
     display: flex;
     justify-content: center;
@@ -16,8 +25,73 @@
 
 .cards a {
     width: 20%;
+    position: relative;
+}
+
+.cards a::before {
+    position: absolute;
+    content: "+";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 98%;
+    background-color: var(--purple);
+    opacity: 0;
+    font-size: var(--h2);
+    color: var(--white);
+    transition: 0.4s;
+}
+
+.cards a:hover::before {
+    opacity: 0.8;
 }
 
 .cards a img {
     width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .main img {
+        width: 70%;
+    }
+    
+    .cards {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main img {
+        width: 70%;
+    }
+    
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .section-3 h1 {
+        font-size: var(--h3);
+    }
+
+    .section-3 p {
+        width: 80%;
+        font-size: calc(var(--h4) - 3px);
+        text-align: center;
+    }
+    
+    .main img {
+        width: 100%;
+    }
+
+    .cards a {
+        width: 80%;
+    }
 }

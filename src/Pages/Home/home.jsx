@@ -9,7 +9,7 @@ import Section3 from '../../Components/Section-3/section3.jsx';
 export default function Home() {
     return (
         <div className="home">
-            {/* <Hero /> */}
+            <Hero />
             <Store data={home_content} />
             <Section1 />
             <Section2 />

@@ -38,8 +38,8 @@ export default function Section1() {
                 containerClass='section-1-container'
                 itemClass='section-1-item'
                 responsive={responsive}
-                infinite={true}
-                renderButtonGroupOutside={true}
+                showDots={true}
+                arrows={false}
             >
                 {
                     section1.slide.map((item, index) => (

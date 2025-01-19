@@ -4,9 +4,7 @@ export default function Section3() {
     return (
         <div className='section-3'>
             <h1>Template Core Features</h1>
-            <p>
-                Grow your online business based on one of the best react eCommerce template
-            </p>
+            <p>Grow your online business based on one of the best react eCommerce template</p>
             <div className="main">
                 <img src='assets/image-laptop.png' alt='' />
             </div>

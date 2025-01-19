@@ -23,12 +23,12 @@ export default function Section2() {
             'assets/image-03.jpg',
             'assets/image-05.jpg',
             'assets/image-01.jpg',
-            'assets/image-02.jpg'
+            'assets/image-02.jpg',
         ]
     }
     return (
         <div className='section-2'>
-            <h1>Immensity of templates & layovte with advanced options</h1>
+            <h1>Immensity of templates & layouts with advanced options</h1>
             <div className='section-2-row'>
                 <div className="section-2-row-1-col">
                     <h2>Premade Headers</h2>
@@ -45,12 +45,12 @@ export default function Section2() {
                     </p>
                 </div>
             </div>
-            <Carousel 
-                responsive={responsive} 
-                containerClass='section-2-carousel' 
-                itemClass='section-2-item' 
-                showDots={true} 
-                arrows={false} 
+            <Carousel
+                responsive={responsive}
+                containerClass='section-2-carousel'
+                itemClass='section-2-item'
+                showDots={true}
+                arrows={false}
                 infinite={true}
             >
                 {
