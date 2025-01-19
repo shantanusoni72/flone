@@ -1,7 +1,8 @@
 .hero-container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--silver);
     overflow: hidden;
 }
@@ -43,6 +44,34 @@
     width: 195%;
 }
 
+.hero-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.hero-card {
+    width: 20%;
+}
+
+.hero-card p {
+    font-size: calc(var(--h4) - 3px);
+    color: var(--grey);
+}
+
+@media screen and (max-width: 992px) {
+    .hero-cards {
+        width: 80%;
+    }
+    
+    .hero-card {
+        width: 45%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .hero-text h1 {
         font-size: calc(var(--h2) - 4px);
@@ -68,12 +97,28 @@
     
     
     .hero-text h1 {
-        font-size: calc(var(--h2) - 4px);
-        line-height: 50px;
+        font-size: calc(var(--h2) - 8px);
+        line-height: 40px;
     }
     
     .hero-text p {
-        font-size: calc(var(--h3) - 4px);
+        font-size: calc(var(--h4) - 3px);
         color: var(--grey);
+    }
+
+    .hero-cards {
+        width: 80%;
+    }
+    
+    .hero-card {
+        width: 100%;
+    }
+
+    .hero-card h3 {
+        font-size: calc(var(--h4) - 3px);
+    }
+
+    .hero-card p {
+        font-size: calc(var(--h4) - 4px);
     }
 }

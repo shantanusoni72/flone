@@ -13,14 +13,22 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    background-color: var(--white);
+}
+
+.store-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url('../../../public/assets/store-bg.jpg');
-    background-position: top;
+    background-position: center;
     background-repeat: repeat-x;
     background-size: auto;
     animation: movingStore infinite 18s linear;
 }
 
-.store-container h1, .store-container h1 sup {
+.store-text h1, .store-text h1 sup {
     font-size: 150px;
     font-weight: 700;
     display: inline-block;
@@ -29,11 +37,11 @@
     background-clip: text;
 }
 
-.store-container h2 {
+.store-text h2 {
     font-size: var(--h2);
 }
 
-.store-container p {
+.store-text p {
     width: 50%;
     font-size: var(--h5);
     color: var(--grey);

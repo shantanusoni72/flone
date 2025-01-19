@@ -22,6 +22,24 @@ export default function Hero() {
           </li>
         </ul>
       </div>
+      <div className="hero-cards">
+        <div className="hero-card">
+          <h3>Latest React & Redux</h3>
+          <p>Latest React and Redux used.</p>
+        </div>
+        <div className="hero-card">
+          <h3>Mega Menu</h3>
+          <p>Mega Menu is the door that has the entrance to every pages of your site. It navigates things for bringing ease.</p>
+        </div>
+        <div className="hero-card">
+          <h3>Responsive Design</h3>
+          <p>Flone is super responsive & work perfectly in all devices.</p>
+        </div>
+        <div className="hero-card">
+          <h3>Real Support</h3>
+          <p>We provide 7 days a week one by one real support.</p>
+        </div>
+      </div>
     </div>
   )
 }
